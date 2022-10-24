@@ -4,11 +4,14 @@ import './wb-cooking.css';
 import App from './WbCooking.svelte';
 
 const app = new App({
-  target: document.getElementById('wb-cooking')
+  target: document.getElementById('wb-cooking'),
 });
 
-await recipes.readFromJson();
-
-console.log(get(recipes.getAll));
+recipes
+  .readFromJson()
+  .then(() => {
+    console.log(get(recipes.getAll));
+  })
+  .catch((e) => console.error(e));
 
 export default app;
