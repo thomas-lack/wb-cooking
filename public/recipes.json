@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Hähnchen vom Blech griechische Art",
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "lactoseFree": false,
+    "timeInMinutes": "45",
+    "calories": 823,
+    "portions": 4,
+    "ingredients": [
+      {
+        "name": "Oregano",
+        "amount": 1,
+        "unit": "Bund"
+      },
+      {
+        "name": "Bio-Zitrone",
+        "amount": 1
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Paprikapulver"
+      },
+      {
+        "name": "Hähnchenkeulen",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "junge Kartoffeln",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehen",
+        "amount": 5
+      },
+      {
+        "name": "Zucchini",
+        "amount": 1
+      },
+      {
+        "name": "rote Paprikaschoten",
+        "amount": 2
+      },
+      {
+        "name": "rote Zwiebel",
+        "amount": 1
+      },
+      {
+        "name": "schwarze Oliven (entsteint)",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "name": "Kapern",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "getrocknete Tomate in Öl",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Feta",
+        "amount": 200,
+        "unit": "g"
+      }
+    ] ,
+    "preparationSteps": [
+      "Für die Marinade ½ Bund Oregano waschen, trocken schütteln und fein hacken. Mit Zitronensaft, Zitronenabrieb, Oregano und Olivenöl verrühren und mit Salz, Pfeffer und Paprikapulver würzen.",
+      "Hähnchenkeulen abspülen, trocken tupfen und jeweils am Gelenk in zwei Teile schneiden. Kartoffeln gründlich waschen. Knoblauchzehen andrücken. Hähnchen, Kartoffeln und Knoblauch auf ein Backblech geben, mit der Marinade übergießen und im vorgeheizten Backofen bei 220 °C (Umluft 200 °C; Gas: Stufe 3–4) 20 Minuten backen.",
+      "Inzwischen Zucchini waschen, putzen, halbieren und in Stücke schneiden. Paprika waschen, halbieren, entkernen und in Stücke schneiden. Zwiebel schälen und vierteln. Gemüse zum Hähnchen geben und weitere 20 Minuten garen.",
+      "Währenddessen Oliven, Kapern und Tomaten abtropfen lassen und in Stücke schneiden. Restlichen Oregano grob hacken. Feta zerbröseln und mit Oliven, Kapern, Tomaten und Oregano vermengen und vor dem Servieren über das Hähnchen vom Blech geben."
+    ]
+  }
+]
