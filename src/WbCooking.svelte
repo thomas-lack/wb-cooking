@@ -1,16 +1,27 @@
 <script lang="ts">
-  import RecipesList from './pages/recipes-list/RecipesList.svelte';
+  import { Router } from 'svelte-router-spa';
+  import routes from 'virtual:generated-pages-svelte';
 </script>
 
-<main>
-  <h1>wb cooking</h1>
+<nav>
+  <a href="./">Home</a>
+  <a href="./rezepte">Rezepte</a>
+</nav>
 
-  <RecipesList />
+<main>
+  <Router {routes} />
 </main>
 
 <style lang="scss">
-  main {
-    display: flex;
-    flex-direction: column;
+  nav {
+    a {
+      color: #213547;
+      padding: 10px;
+
+      &:hover {
+        color: white;
+        background-color: #213547;
+      }
+    }
   }
 </style>
