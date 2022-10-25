@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Recipe } from '../../shared/store/recipes/recipe'
-  import { recipes } from '../../shared/store/recipes/recipes.store'
+  import type { Recipe } from '../shared/store/recipes/recipe'
+  import { recipes } from '../shared/store/recipes/recipes.store'
 
   let recipesList: Recipe[] = []
 
