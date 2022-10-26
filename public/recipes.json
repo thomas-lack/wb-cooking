@@ -1,5 +1,6 @@
 [
   {
+    "id": "0001",
     "name": "Hähnchen vom Blech griechische Art",
     "vegetarian": false,
     "vegan": false,
@@ -84,6 +85,73 @@
       "Hähnchenkeulen abspülen, trocken tupfen und jeweils am Gelenk in zwei Teile schneiden. Kartoffeln gründlich waschen. Knoblauchzehen andrücken. Hähnchen, Kartoffeln und Knoblauch auf ein Backblech geben, mit der Marinade übergießen und im vorgeheizten Backofen bei 220 °C (Umluft 200 °C; Gas: Stufe 3–4) 20 Minuten backen.",
       "Inzwischen Zucchini waschen, putzen, halbieren und in Stücke schneiden. Paprika waschen, halbieren, entkernen und in Stücke schneiden. Zwiebel schälen und vierteln. Gemüse zum Hähnchen geben und weitere 20 Minuten garen.",
       "Währenddessen Oliven, Kapern und Tomaten abtropfen lassen und in Stücke schneiden. Restlichen Oregano grob hacken. Feta zerbröseln und mit Oliven, Kapern, Tomaten und Oregano vermengen und vor dem Servieren über das Hähnchen vom Blech geben."
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Ofenkartoffeln mit Hackfüllung",
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "lactoseFree": true,
+    "timeInMinutes": "60",
+    "calories": 367,
+    "portions": 4,
+    "ingredients": [
+      {
+        "name": "große festkochende Kartoffeln",
+        "amount": 1400,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1
+      },
+      {
+        "name": "Möhren",
+        "amount": 2
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1
+      },
+      {
+        "name": "grüne milde Chilischoten",
+        "amount": 2
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Rindertartar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Fleischbrühe",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomaten",
+        "amount": 2
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Pfeffer"
+      }
+    ] ,
+    "preparationSteps": [
+      "Kartoffeln gründlich waschen, trockentupfen, fest in Alufolie wickeln und rundherum mit einer Gabel mehrmals einstechen. Auf ein Backblech legen und im vorgeheizten Backofen bei 200 °C (Umluft 180 °C; Gas: Stufe 3) ca. 50 Minuten backen.",
+      "Inzwischen Zwiebel, Möhren und Knoblauch schälen. Zwiebel und Knoblauch fein würfeln, Möhren fein raspeln. Chilischoten waschen, halbieren, putzen und würfeln.",
+      "Öl in einer Pfanne erhitzen. Tatar darin bei mittlerer Hitze krümelig braten. Chili, Knoblauch, Zwiebel und Möhren 2–3 Minuten mitdünsten. Mit Brühe ablöschen.",
+      "Inzwischen Tomaten waschen, putzen, würfeln, zum Hack geben und 30 Minuten einköcheln lassen.",
+      "Salzen und pfeffern.",
+      "Kartoffeln aus dem Ofen nehmen, auspacken, kreuzweise einschneiden, auf Teller legen und mit der Hackmischung füllen."
     ]
   }
 ]
