@@ -1,5 +1,9 @@
+import type { Ingredient } from './ingredient';
+
 export interface Recipe {
+  id: string;
   name: string;
+  image?: string;
   vegetarian?: boolean;
   vegan?: boolean;
   glutenFree?: boolean;
@@ -7,10 +11,8 @@ export interface Recipe {
   timeInMinutes?: number;
   calories?: number;
   portions?: number;
-  ingredients: [{
-    name: string;
-    amount?: number;
-    unit?: string;
-  }];
+  calculatedPortions?: number;
+  
+  ingredients: Ingredient[];
   preparationSteps: string[];
 }
