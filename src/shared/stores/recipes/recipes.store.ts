@@ -16,28 +16,44 @@ async function readFromJson() {
     .then((response) => response.json())
     .then((recipes: Recipe[]) => store.set(recipes))
     .then(() => loading.set(false))
-    .catch((e) => {
-      console.error(e);
+    .catch((e: Error) => {
+      console.error(e.message);
     });
 }
 
 export const recipes = {
   subscribe,
   getAll: derived(store, ($recipes) => $recipes),
-  getDistinct,
+  getDistinctSet,
   getRandom,
   loading: derived(loading, ($loading) => $loading),
   readFromJson,
 };
 
-function getDistinct(amount: number): Recipe[] {
+function getDistinctSet(amount: number): Recipe[] {
   const result: Recipe[] = [];
+  const totalAvailable = get(store).length;
   while (result.length < amount) {
-    result.push(getRandom());
+    if (result.length < totalAvailable) {
+      result.push(getDistinct(get(store), result));
+    }
+    if (result.length >= totalAvailable) {
+      result.push(getRandom(get(store)));
+    }
   }
   return result;
 }
 
-function getRandom(): Recipe {
-  return get(store)[Math.floor(Math.random() * get(store).length)];
+function getRandom(recipes: Recipe[]): Recipe {
+  if (recipes == null) {
+    recipes = get(store);
+  }
+  return recipes[Math.floor(Math.random() * recipes.length)];
+}
+
+function getDistinct(recipes: Recipe[], alreadySelected: Recipe[]): Recipe {
+  if (recipes == null) {
+    recipes = get(store);
+  }
+  return getRandom(recipes.filter(r => !alreadySelected.includes(r)));
 }

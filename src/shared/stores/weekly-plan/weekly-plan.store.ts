@@ -2,22 +2,34 @@ import { derived, get, writable } from 'svelte/store';
 import type { Recipe } from '../recipes/recipe';
 import { recipes } from '../recipes/recipes.store';
 
-const days = writable(5);
+const totalRecipes = writable(3);
+
+const portions = writable(5);
 
 const recipesList = writable<Recipe[]>([]);
 
-const subscribe = derived([days, recipesList], ([$days, $recipesList]) => ({
-  days: $days,
-  recipesList: $recipesList,
-})).subscribe;
+const subscribe = derived(
+  [totalRecipes, portions, recipesList],
+  ([$totalRecipes, $portions, $recipesList]) => ({
+    totalRecipes: $totalRecipes,
+    portions: $portions,
+    recipesList: $recipesList,
+  })
+).subscribe;
 
 export const weeklyPlan = {
   subscribe,
-  days,
+  totalRecipes,
+  portions,
   recipesList: derived(recipesList, ($recipesList) => $recipesList),
   generate,
 };
 
 function generate() {
-  recipesList.set(recipes.getDistinct(get(days)));
+  recipesList.set(recipes.getDistinctSet(get(totalRecipes)));
+  distributePortionAmounts();
+}
+
+function distributePortionAmounts() {
+  // TODO
 }

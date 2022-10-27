@@ -8,7 +8,7 @@
 
 {#each $recipesList as recipe, i}
   <div class="recipe">
-    <div class="day">Tag {i + 1}</div>
+    <div class="recipe-index">Rezept Nr. {i + 1}</div>
     <div class="name">{recipe.name}</div>
   </div>
 {/each}

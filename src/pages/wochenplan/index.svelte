@@ -3,34 +3,45 @@
 
   import { weeklyPlan } from '../../shared/stores/weekly-plan/weekly-plan.store';
 
-  let showRecipesList = false;
+  export const currentRoute: string = undefined;
 
-  const days = weeklyPlan.days;
+  const totalRecipes = weeklyPlan.totalRecipes;
+
+  const portions = weeklyPlan.portions;
+
+  const recipesList = weeklyPlan.recipesList;
 
   function createNewRecipesList() {
     weeklyPlan.generate();
-    showRecipesList = true;
   }
+
 </script>
 
 <h1>Wochenplan</h1>
 
 <div class="preference">
-  <label for="days">Anzahl Tage</label>
-  <input type="number" name="days" bind:value={$days} />
+  <label for="totalRecipes">Anzahl ausgewählte Rezepte</label>
+  <input type="number" name="totalRecipes" bind:value={$totalRecipes} />
+</div>
+
+<div class="preference">
+  <label for="portions">Anzahl Portionen</label>
+  <input type="number" name="portions" bind:value={$portions} />
 </div>
 
 <button class="submit" on:click={createNewRecipesList}
   >Neuen Wochenplan erstellen</button
 >
 
-{#if showRecipesList}
+{#if $recipesList.length > 0}
   <RezeptListe />
 {/if}
 
 <style lang="scss">
-  input[name='days'] {
-    width: 50px;
+  .preference {
+    input {
+      width: 50px;
+    }
   }
 
   button.submit {
