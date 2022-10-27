@@ -2,6 +2,7 @@
   {
     "id": "0001",
     "name": "Hähnchen vom Blech griechische Art",
+    "image": "/assets/0001.jpg",
     "vegetarian": false,
     "vegan": false,
     "glutenFree": true,
@@ -90,6 +91,7 @@
   {
     "id": "0002",
     "name": "Ofenkartoffeln mit Hackfüllung",
+    "image": "/assets/0002.jpg",
     "vegetarian": false,
     "vegan": false,
     "glutenFree": true,
@@ -157,6 +159,7 @@
   {
     "id": "0003",
     "name": "Blumenkohl-Kartoffel-Auflauf",
+    "image": "/assets/0003.jpg",
     "vegetarian": false,
     "vegan": false,
     "glutenFree": false,
@@ -230,6 +233,7 @@
   {
     "id": "0004",
     "name": "Low Carb-Big Mac-Auflauf",
+    "image": "/assets/0004.jpg",
     "vegetarian": false,
     "vegan": false,
     "glutenFree": false,
@@ -303,7 +307,7 @@
   {
     "id": "0005",
     "name": "Gemüse-Quinoa-Bowl mit Erdnuss-Dip",
-    "image": "./assets/0005.jpg",
+    "image": "/assets/0005.jpg",
     "vegetarian": true,
     "vegan": false,
     "glutenFree": true,
@@ -397,7 +401,7 @@
   {
     "id": "0006",
     "name": "Gemüse-Linsen-Eintopf mit Erbsen",
-    "image": "./assets/0006.jpg",
+    "image": "/assets/0006.jpg",
     "vegetarian": true,
     "vegan": true,
     "glutenFree": true,
@@ -490,7 +494,7 @@
   {
     "id": "0007",
     "name": "Tofu-Spinat-Tomaten-Curry mit Kurkuma-Reis",
-    "image": "./assets/0007.jpg",
+    "image": "/assets/0007.jpg",
     "vegetarian": true,
     "vegan": true,
     "glutenFree": true,
