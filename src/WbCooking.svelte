@@ -4,9 +4,9 @@
 </script>
 
 <nav>
-  <a href="./">Home</a>
-  <a href="./rezepte">Rezepte</a>
-  <a href="./wochenplan">Wochenplan</a>
+  <a href="/">Home</a>
+  <a href="/rezepte">Rezepte</a>
+  <a href="/wochenplan">Wochenplan</a>
 </nav>
 
 <main>
