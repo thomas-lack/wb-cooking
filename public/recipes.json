@@ -6,7 +6,7 @@
     "vegan": false,
     "glutenFree": true,
     "lactoseFree": false,
-    "timeInMinutes": "45",
+    "timeInMinutes": 45,
     "calories": 823,
     "portions": 4,
     "ingredients": [
@@ -79,7 +79,7 @@
         "amount": 200,
         "unit": "g"
       }
-    ] ,
+    ],
     "preparationSteps": [
       "Für die Marinade ½ Bund Oregano waschen, trocken schütteln und fein hacken. Mit Zitronensaft, Zitronenabrieb, Oregano und Olivenöl verrühren und mit Salz, Pfeffer und Paprikapulver würzen.",
       "Hähnchenkeulen abspülen, trocken tupfen und jeweils am Gelenk in zwei Teile schneiden. Kartoffeln gründlich waschen. Knoblauchzehen andrücken. Hähnchen, Kartoffeln und Knoblauch auf ein Backblech geben, mit der Marinade übergießen und im vorgeheizten Backofen bei 220 °C (Umluft 200 °C; Gas: Stufe 3–4) 20 Minuten backen.",
@@ -94,7 +94,7 @@
     "vegan": false,
     "glutenFree": true,
     "lactoseFree": true,
-    "timeInMinutes": "60",
+    "timeInMinutes": 60,
     "calories": 367,
     "portions": 4,
     "ingredients": [
@@ -144,7 +144,7 @@
       {
         "name": "Pfeffer"
       }
-    ] ,
+    ],
     "preparationSteps": [
       "Kartoffeln gründlich waschen, trockentupfen, fest in Alufolie wickeln und rundherum mit einer Gabel mehrmals einstechen. Auf ein Backblech legen und im vorgeheizten Backofen bei 200 °C (Umluft 180 °C; Gas: Stufe 3) ca. 50 Minuten backen.",
       "Inzwischen Zwiebel, Möhren und Knoblauch schälen. Zwiebel und Knoblauch fein würfeln, Möhren fein raspeln. Chilischoten waschen, halbieren, putzen und würfeln.",
@@ -152,6 +152,433 @@
       "Inzwischen Tomaten waschen, putzen, würfeln, zum Hack geben und 30 Minuten einköcheln lassen.",
       "Salzen und pfeffern.",
       "Kartoffeln aus dem Ofen nehmen, auspacken, kreuzweise einschneiden, auf Teller legen und mit der Hackmischung füllen."
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Blumenkohl-Kartoffel-Auflauf",
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "lactoseFree": false,
+    "timeInMinutes": 45,
+    "portions": 4,
+    "ingredients": [
+      {
+        "name": "1 Kopf Blumenkohl",
+        "amount": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Mehl",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Milch",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Muskatnuss",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "name": "Kochschinken",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "geriebener Käse",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Paniermehl oder Brotkrümel",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Petersilie",
+        "amount": 5,
+        "unit": "Stiele"
+      }
+    ],
+    "preparationSteps": [
+      "Backofen auf 180°C (O/U Hitze) vorheizen. Den Blumenkohl in Röschen teilen und diese evtl. kleiner schneiden. Kartoffeln schälen, in Scheiben schneiden und beides in Salzwasser 10 Minuten garen.",
+      "Währenddessen für die Sauce die Butter in einem Topf schmelzen, das Mehl hinzufügen und nach und nach mit der Milch aufgießen. Dabei immer wieder rühren bis die gewünschte Konsistenz erreicht ist (schön cremig, aber nicht zu fest) und zum Schluss 50 g Käse darin schmelzen. Die Sauce kräftig mit Salz, Pfeffer und Muskatnuss abschmecken (Wichtig, da das Gemüse viel Würze „schluckt“!)",
+      "Den Schinken in Würfel schneiden und mit dem Blumenkohl und den Kartoffeln in der Auflaufform verteilen. Die Sauce darüber verteilen, mit den Brotkrümeln und 50 g Käse bestreuen und im vorgeheizten Ofen etwa 30 Minuten gratinieren. Nach Belieben mit frisch gehackter Petersilie bestreut servieren."
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Low Carb-Big Mac-Auflauf",
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "lactoseFree": false,
+    "timeInMinutes": 45,
+    "calories": 623,
+    "portions": 3,
+    "ingredients": [
+      {
+        "name": "Hackfleisch vom Rind",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Cherrytomaten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Creme legere",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Schmelzkäse Scheiben",
+        "amount": 130,
+        "unit": "g"
+      },
+      {
+        "name": "Gratinkäse",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Burger Gurken",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Senf",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Paprikapulver"
+      }
+    ],
+    "preparationSteps": [
+      "Den Backofen auf 180° C Umluft vorheizen.",
+      "Creme legere mit dem Tomatenmark und dem Senf verrühren und ordentlich würzen. Die Zwiebel schälen und sehr fein würfeln. Mit in die Masse geben und beiseite stellen.",
+      "Die Tomaten waschen und in Scheiben schneiden.",
+      "Das Hackfleisch möglichst ohne Fett in einer beschichteten Pfanne anbraten und mit Salz, Pfeffer und Paprika würzen. In eine Auflaufform geben.",
+      "Erst die Sauce, dann die Gürkchen auf dem Hackfleisch verteilen und anschließend mit dem Schmelzkäse belegen. Nun die Tomatenscheiben darauf verteilen und den Käse darüber streuen. 15min backen."
+    ]
+  },
+  {
+    "id": "0005",
+    "name": "Gemüse-Quinoa-Bowl mit Erdnuss-Dip",
+    "image": "./assets/0005.jpg",
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": true,
+    "lactoseFree": false,
+    "timeInMinutes": 35,
+    "calories": 339,
+    "portions": 2,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Kurkumapulver",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Knollensellerie",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Möhre",
+        "amount": 1
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Paprikapulver"
+      },
+      {
+        "name": "getrockneter Majoran"
+      },
+      {
+        "name": "getrockneter Thymian"
+      },
+      {
+        "name": "Petersilie",
+        "amount": 2,
+        "unit": "Stiele"
+      },
+      {
+        "name": "Joghurt (3,5 % Fett)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Erdnussmus",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "name": "Erdnusskern",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Baby-Spinat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Granatapfelkerne",
+        "amount": 2,
+        "unit": "EL"
+      }
+    ],
+    "preparationSteps": [
+      "Quinoa abspülen, abtropfen und mit Kurkuma und der doppelten Menge kochendem Salzwasser 15 Minuten kochen, anschließend vom Herd nehmen und quellen lassen.",
+      "Inzwischen Sellerie und Möhre schälen und in kleine Würfel schneiden. Öl in einer Pfanne erhitzen und Gemüsewürfel darin unter gelegentlichem Rühren etwa 10 Minuten bei mittlerer Hitze dünsten. Mit Salz, Pfeffer und Gewürzen würzen.",
+      "Petersilie waschen, trocken schütteln und fein hacken. Joghurt mit Erdnussmus, Hälfte der Petersilie verrühren, mit Salz, Pfeffer und Chiliflocken würzen. Erdnusskerne hacken.",
+      "Quinoa mit Spinat in zwei Schalen geben, Gemüse darauf anrichten mit der Sauce beträufeln, mit den Nüssen, der restlichen Petersilie und den Granatapfelkernen bestreuen."
+    ]
+  },
+  {
+    "id": "0006",
+    "name": "Gemüse-Linsen-Eintopf mit Erbsen",
+    "image": "./assets/0006.jpg",
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "lactoseFree": true,
+    "timeInMinutes": 25,
+    "calories": 592,
+    "portions": 2,
+    "ingredients": [
+      {
+        "name": "Ingwer",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Schalotte",
+        "amount": 1
+      },
+      {
+        "name": "Süßkartoffel",
+        "amount": 1
+      },
+      {
+        "name": "Knollensellerie",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "Rote Linsen",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Harissa-Paste",
+        "amount": 1,
+        "unit": "TL"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 1,
+        "unit": "EL"
+      },
+      {
+        "name": "Currypulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "Salz"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Kokosmilch",
+        "amount": 4,
+        "unit": "EL"
+      },
+      {
+        "name": "Frühlingszwiebeln",
+        "amount": 2
+      },
+      {
+        "name": "Tiefkühlerbsen",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sonnenblumenkerne",
+        "amount": 2,
+        "unit": "TL"
+      }
+    ],
+    "preparationSteps": [
+      "Ingwer und Schalotte schälen und hacken. Süßkartoffel und Sellerie putzen, schälen und in kleiner Würfel schneiden.",
+      "1 EL Öl in einem Topf erhitzen, Ingwer, Schalotte, Süßkartoffel und Sellerie darin bei mittlerer Hitze 5 Minuten andünsten. Linsen, Harissa, Tomatenmark und Currypulver zugeben und 4 Minuten mitdünsten.",
+      "Mit Gemüsebrühe angießen, mit Salz sowie Pfeffer würzen und Suppe etwa 15 Minuten köcheln lassen. Anschließend 2 EL Kokosmilch unterrühren.",
+      "Nebenher Frühlingszwiebeln putzen, waschen und klein schneiden. Restliches Öl in einer Pfanne erhitzen, Zwiebel, Erbsen und Sonnenblumenkerne darin 5 Minuten anbraten. Suppe in zwei Schalen füllen, mit der restlichen Kokosmilch beträufeln und mit Erbsen toppen."
+    ]
+  },
+  {
+    "id": "0007",
+    "name": "Tofu-Spinat-Tomaten-Curry mit Kurkuma-Reis",
+    "image": "./assets/0007.jpg",
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "lactoseFree": true,
+    "timeInMinutes": 25,
+    "calories": 419,
+    "portions": 4,
+    "ingredients": [
+      {
+        "name": "Knoblauchzehen",
+        "amount": 2
+      },
+      {
+        "name": "Schalotten",
+        "amount": 2
+      },
+      {
+        "name": "Ingwer ",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Kirschtomaten",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Rapsöl",
+        "amount": 2,
+        "unit": "EL"
+      },
+      {
+        "name": "tiefgekühlter Blattspinat (aufgetaut)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "passierte Tomaten",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Kokosmilch (9 % Fett)",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Jodsalz mit Fluorid"
+      },
+      {
+        "name": "Pfeffer"
+      },
+      {
+        "name": "Currypulver",
+        "amount": 0.5,
+        "unit": "TL"
+      },
+      {
+        "name": "Chiliflocken",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "amount": 1,
+        "unit": "Prise"
+      },
+      {
+        "name": "reis-fit Express Parboiled Reis",
+        "amount": 2,
+        "unit": "Packung"
+      },
+      {
+        "name": "Kurkumapulver",
+        "amount": 1,
+        "unit": "TL"
+      }
+    ],
+    "preparationSteps": [
+      "Knoblauch, Schalotten und Ingwer schälen und alles sehr fein würfeln. Tofu in Würfel schneiden. Tomaten putzen, waschen und halbieren.",
+      "1 EL Öl in einem Topf erhitzen, darin Knoblauch, Schalotten und Ingwer 2 Minuten bei mittlerer Hitze andünsten. Spinat ausdrücken, mit passierten Tomaten und Kokosmilch zugeben und weitere 5 Minuten köcheln lassen.",
+      "Nebenher in einer Pfanne das restliche Öl erhitzen, Tofu darin 5 Minuten bei mittlerer Hitze anbraten, dann Tomaten zugeben und weitere 3 Minuten andünsten. Mit Salz und Pfeffer würzen. Zum Spinat geben und untermischen. Curry mit Currypulver, Salz, Chili und Kreuzkümmel würzen.",
+      "Reis durch sanftes Drücken der Packungen auflockern, Packungen aufreißen und Reis in eine heiße Pfanne mit 4 EL Wasser und Kurkumapulver geben und alles 2–3 Minuten bei mittlerer Hitze unter Rühren erhitzen. Curry mit dem Reis servieren."
     ]
   }
 ]
