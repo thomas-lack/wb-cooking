@@ -11,7 +11,7 @@ export interface Recipe {
   timeInMinutes?: number;
   calories?: number;
   portions?: number;
-  calculatedPortions?: number;
+  userSelectedPortions?: number;
   
   ingredients: Ingredient[];
   preparationSteps: string[];

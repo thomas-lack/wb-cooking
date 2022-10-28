@@ -21,12 +21,12 @@
     <div class="name">{recipe.name}</div>
 
     <div class="modifyPortions">
-      <label for="calculatedPortions">Anzahl Portionen</label>
+      <label for="userSelectedPortions">Anzahl Portionen</label>
       <input
         type="number"
-        name="calculatedPortions"
+        name="userSelectedPortions"
         min="0"
-        value={recipe.calculatedPortions}
+        value={recipe.userSelectedPortions}
         on:input={(e) => modifyRecipePortions(e, recipe)}
       />
     </div>

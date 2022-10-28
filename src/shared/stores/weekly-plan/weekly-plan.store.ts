@@ -34,7 +34,7 @@ function modifyRecipePortions(recipe: Recipe, value: number) {
   recipesList.set(
     get(recipesList).map((r) => {
       if (r.id === recipe.id) {
-        r.calculatedPortions = value;
+        r.userSelectedPortions = value;
       }
       return r;
     })
@@ -50,7 +50,7 @@ function distributePortionAmounts() {
   const portionDistribution = getPortionDistribution();
   recipesList.set(
     get(recipesList).map((recipe, i) => {
-      recipe.calculatedPortions = portionDistribution[i];
+      recipe.userSelectedPortions = portionDistribution[i];
       return recipe;
     })
   );

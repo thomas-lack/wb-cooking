@@ -11,8 +11,8 @@
 {/if}
 
 <div class="portions">
-  {#if recipe.calculatedPortions}
-    {recipe.calculatedPortions}
+  {#if recipe.userSelectedPortions}
+    {recipe.userSelectedPortions}
   {:else}
     {recipe.portions}
   {/if}
