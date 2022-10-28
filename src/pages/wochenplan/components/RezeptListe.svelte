@@ -1,6 +1,5 @@
 <script lang="ts">
-  import type { Recipe } from 'src/shared/stores/recipes/recipe';
-
+  import type { Recipe } from '../../../shared/stores/recipes/recipe';
   import { weeklyPlan } from '../../../shared/stores/weekly-plan/weekly-plan.store';
 
   const recipesList = weeklyPlan.recipesList;

@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Recipe } from 'src/shared/stores/recipes/recipe';
+  import type { Recipe } from '../../../shared/stores/recipes/recipe';
+  import { recipes } from '../../../shared/stores/recipes/recipes.store';
   import Zutaten from './Zutaten.svelte';
 
   export let recipe: Recipe;
@@ -19,7 +20,7 @@
   Portionen
 </div>
 
-<Zutaten ingredients={recipe.ingredients} />
+<Zutaten ingredients={recipes.calculateIngredients(recipe)} />
 
 <h4>Zubereitung</h4>
 <ol>

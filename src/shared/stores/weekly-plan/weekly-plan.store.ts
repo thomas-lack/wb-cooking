@@ -72,12 +72,32 @@ function getPortionDistribution(): number[] {
   return portionDistribution;
 }
 
-function getTotalIngredients(recipes: Recipe[]): Ingredient[] {
-  let ingredients: Ingredient[] = [];
-  recipes.map((recipe) => {
-    ingredients = ingredients.concat(recipe.ingredients);
-    //TODO sum up same ingredients
-    //TODO calculate relative ingredients from portions
+function getTotalIngredients(recipeList: Recipe[]): Ingredient[] {
+  const ingredients: Ingredient[] = [];
+  recipeList.map((recipe) => {
+    mergeIngredients(ingredients, recipes.calculateIngredients(recipe));
   });
   return ingredients;
+}
+
+function mergeIngredients(main: Ingredient[], added: Ingredient[]) {
+  added.forEach((addedIngredient) => {
+    main
+      .filter(
+        (ingredient) =>
+          ingredient.name === addedIngredient.name &&
+          ingredient.unit === addedIngredient.unit
+      )
+      .map((ingredient) => (ingredient.amount += addedIngredient.amount));
+
+    if (
+      !main.find(
+        (ingredient) =>
+          ingredient.name === addedIngredient.name &&
+          ingredient.unit === addedIngredient.unit
+      )
+    ) {
+      main.push(addedIngredient);
+    }
+  });
 }
