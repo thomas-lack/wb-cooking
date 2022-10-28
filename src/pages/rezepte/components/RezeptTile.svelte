@@ -33,6 +33,9 @@
           />{recipe.calories} kcal
         </div>
       {/if}
+      {#if recipe.glutenFree}
+        <div class="info gluten-free">glutenfrei</div>
+      {/if}
     </div>
   </a>
 </div>
@@ -82,6 +85,12 @@
           height: 17px;
           position: relative;
           top: 3px;
+        }
+
+        .gluten-free {
+          padding: 0 5px;
+          color: white;
+          background-color: $orange-500;
         }
       }
     }
