@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Recipe } from '../../shared/stores/recipes/recipe';
   import { recipes } from '../../shared/stores/recipes/recipes.store';
+  import RezeptTile from './components/RezeptTile.svelte';
 
   let recipesList: Recipe[] = [];
 
@@ -11,11 +12,18 @@
 
 <h2>Rezepte:</h2>
 
-<ul>
+<div class="pane">
   {#each recipesList as recipe}
-    <li>{recipe.name}</li>
+    <RezeptTile {recipe} />
   {/each}
-</ul>
+</div>
 
 <style lang="scss">
+  .pane {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+    margin-top: 27px;
+  }
 </style>
