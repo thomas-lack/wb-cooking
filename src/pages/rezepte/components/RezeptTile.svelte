@@ -46,6 +46,7 @@
   .tile {
     border: 1px solid $gray-100;
     width: 250px;
+    background-color: $white;
 
     a {
       display: flex;
